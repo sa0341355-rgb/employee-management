@@ -1,7 +1,4 @@
-# Employee Management System (Full Stack)
-
-A full-stack **Employee Management System** built with **Spring Boot (Backend)** and **React (Frontend)**.  
-The application supports **JWT-based authentication**, **role-based access control**, and complete **CRUD operations** for employees.
+# Employee Management System
 
 ---
 
@@ -20,12 +17,6 @@ The application supports **JWT-based authentication**, **role-based access contr
 - View employee list (Admin & User)
 - Pagination, sorting, and search
 
-### 🧑‍💻 Frontend
-- React + Vite
-- Axios with JWT interceptor
-- Protected routes
-- Admin-only UI actions
-- Proper error handling (409 conflict, validation errors)
 
 ### 🛠 Backend
 - Spring Boot
@@ -48,13 +39,6 @@ The application supports **JWT-based authentication**, **role-based access contr
 - MySQL
 - Maven
 
-### Frontend
-- React
-- Vite
-- Axios
-- React Router
-- Bootstrap
-
 ---
 
 ## ⚙️ Setup Instructions
@@ -67,9 +51,3 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-### 2️⃣ Frontend Setup (React)
-
-```bash
-cd ems-frontend
-npm install
-npm run dev
